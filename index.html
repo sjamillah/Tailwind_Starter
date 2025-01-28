@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Youtube Clone</title>
+    <link rel="stylesheet" href="./output/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-poppins">
+    <div
+      class="container min-h-screen bg-[url('/img/Image.png')] bg-center bg-contain px-28 py-5 max-w-full relative"
+    >
+      <nav class="flex items-center relative top-0 md:group group-hover">
+        <img src="img/logoyoutube.png" alt="logo" class="w-40 cursor-pointer" />
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:underline"
+              >Home</a
+            >
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:underline"
+              >About</a
+            >
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:underline"
+              >Features</a
+            >
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2 hover:underline"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <img src="img/cart.png" alt="cart" class="w-8 cursor-pointer" />
+      </nav>
+
+      <div class="text-white mt-48 max-w-xl">
+        <h1 class="text-6xl font-semibold leading-normal">
+          Groceries<br />delivery in <span class="font-light">15 mins</span>
+        </h1>
+        <p>
+          Grocify offers a wide range of products, including fresh products,
+          meats, dairy, baked goods and non-perishable items.
+        </p>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="text-blue-950 bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+            >Order Now</a
+          >
+          <a href="#"
+            >Download App
+            <span class="text-lg inline-block rotate-90">&#10148;</span></a
+          >
+        </div>
+      </div>
+      <img
+        src="img/grocery-image.png"
+        class="w-full xl:w-1/2 xl:absolute bottom-0 right-20"
+      />
+    </div>
+  </body>
+</html>
